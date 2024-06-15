@@ -13,12 +13,9 @@ export const PhoneHeader = () => {
 
   return (
     <div>
-      <a href="#go-back">
+      <a href="#go-back" aria-label="Go back to dog walker overview page">
         {/* RRC -> Go back to the loading screen for few seconds? */}
-        <img
-          src="/images/left-arrow.svg"
-          alt="Go back to dog walker overview page"
-        />
+        <img src="/images/left-arrow.svg" alt="" role="presentation" />
       </a>
       {contact}
       <button aria-label="Show more options">

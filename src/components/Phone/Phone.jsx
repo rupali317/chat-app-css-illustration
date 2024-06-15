@@ -3,9 +3,10 @@ import { PhoneHeader } from "../PhoneHeader/PhoneHeader";
 
 export const Phone = () => {
   return (
-    <div>
+    <section>
+      <div class="phone-header"></div>
       <PhoneHeader />
       <PhoneBody />
-    </div>
+    </section>
   );
 };
