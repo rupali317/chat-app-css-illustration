@@ -1,6 +1,6 @@
 import * as ChatType from "../../constants/ChatType";
 
-[
+export const chats = [
   {
     id: 1,
     type: ChatType.TEXT,
