@@ -1,3 +1,3 @@
-export const ChatTexts = () => {
-  return <div></div>;
+export const ChatTexts = (props) => {
+  return <p>{props.content.message}</p>;
 };

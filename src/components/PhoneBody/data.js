@@ -26,14 +26,17 @@ export const chats = [
         {
           id: 1,
           src: "/images/dog-image-1.jpg",
+          name: "Dog 1",
         },
         {
           id: 2,
           src: "/images/dog-image-2.jpg",
+          name: "Dog 2",
         },
         {
           id: 3,
           src: "/images/dog-image-3.jpg",
+          name: "Dog 3",
         },
       ],
     },
@@ -70,6 +73,7 @@ export const chats = [
     content: {
       message: "30 minute walk",
       price: 29,
+      currency: "$",
     },
   },
   {
@@ -79,6 +83,7 @@ export const chats = [
     content: {
       message: "1 hour walk",
       price: 49,
+      currency: "$",
     },
   },
 ];

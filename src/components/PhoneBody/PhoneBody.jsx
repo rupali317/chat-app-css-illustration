@@ -6,6 +6,7 @@ export const PhoneBody = () => {
   const chatList = chats.map((item) => {
     return (
       <ChatConvos
+        key={item.id}
         type={item.type}
         source={item.source}
         content={item.content}
