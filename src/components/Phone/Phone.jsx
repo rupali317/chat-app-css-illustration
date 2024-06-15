@@ -4,7 +4,7 @@ import { PhoneHeader } from "../PhoneHeader/PhoneHeader";
 export const Phone = () => {
   return (
     <section>
-      <div className="phone-header"></div>
+      <div className="phone-header-rectangle"></div>
       <PhoneHeader />
       <PhoneBody />
     </section>
